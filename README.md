@@ -1,18 +1,21 @@
 <pre lang='javascript'>
-class moment {
-  constructor(...options) {
-    this.height = "1.74"
-    this.type = "human"
-    this.job = "student"
-    this.sex = "male"
-  }
+var height;
+var type;
+var job;
+var sex;
+var langs = [];
+
+function moment(h, t, j, s, l) {
+  height = h
+  type = t
+  job = j
+  sex = s
+  langs = l
 }
 
-class CreateMan extends moment {
-  constructor(...options) {
-    super(options);
-  }
+  moment('1.76', 'human', 'student', 'male', ['NodeJS', 'Lua'])
 </pre>
+
 
 <!--
 **momentshu/momentshu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
